@@ -7,9 +7,18 @@ class Menus extends Component {
     }
     state = {  }
     render() { 
-        return ( <nav>
-            <h1>Menu</h1>
-        </nav> );
+        return ( 
+        <nav id="menu" role="navigation">
+            <a href="#">logo</a>
+      <ul id="nav"> 
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+        
+        );
     }
 }
  
