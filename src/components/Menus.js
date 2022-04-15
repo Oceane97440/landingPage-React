@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-
+//import logo from "logo.png"
 
 class Menus extends Component {
     constructor(props) {
@@ -9,13 +9,24 @@ class Menus extends Component {
     render() { 
         return ( 
         <nav id="menu" role="navigation">
-            <a href="#">logo</a>
+            <ul className="menu-logo">
+                
+            <a className="logo" href="#">Landing-Page</a>
+            </ul>
+         
       <ul id="nav"> 
-        <li><a href="#">About</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a className="list-menu" href="#">About |</a></li>
+        <li><a className="list-menu" href="#">Products |</a></li>
+        <li><a className="list-menu" href="#">Services |</a></li>
+        <li><a className="list-menu" href="#">Contact</a></li>
+        
+
       </ul>
+      <ul id="btn-connexion">
+      <li><button className="btn-login">Login</button></li>
+     <li><button className="btn-register"> Register</button></li>
+      </ul>
+      
     </nav>
         
         );

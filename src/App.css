@@ -8,13 +8,48 @@
 #nav{
   display: flex;
   list-style-type: none;
-  padding-right: 10px;
 
 }
 
-a {
+a.list-menu {
   color: #000000;
   text-decoration: none;
   padding: 8px;
 
 } 
+a.list-menu:hover{
+  color: #000000;
+  font-weight: bold;
+}
+
+a.logo{
+  text-decoration:none;
+  color: #000;
+  font-size: x-large;
+  font-weight: 600;
+}
+
+#btn-connexion{
+  display: flex;
+list-style-type: none;}
+.li{
+  padding: 10px;
+}
+
+button.btn-login {
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 15px;
+}
+
+button.btn-register {
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background: #000000;
+  color: white;
+  font-size: 15px;
+}
