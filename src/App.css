@@ -69,6 +69,10 @@ button.btn-register {
 h1{
   font-size: 4vw;
 }
+h2{
+  font-size: 3vw;
+
+}
 #group-btn-section1{
   list-style-type: none;
   display: flex;
@@ -97,4 +101,31 @@ button.btn-contact{
   background: #ffffff;
   color: rgb(0, 0, 0);
   font-size: 15px;
+}
+
+#section2{
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  background: black;
+  color: white;
+  margin-top: -7px;
+
+}
+
+ul.creation{
+  width:100%;
+  list-style-type: none;
+}
+
+video{
+  max-width: 60%;
+  border: 3px solid #ff5722;
+  height: auto;
+  border-radius: 30px;
+}
+#block-video{
+  display: flex;
+justify-content: center; margin-top: -6%;
+
 }
