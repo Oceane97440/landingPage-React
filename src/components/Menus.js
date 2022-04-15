@@ -11,7 +11,7 @@ class Menus extends Component {
         <nav id="menu" role="navigation">
             <ul className="menu-logo">
                 
-            <a className="logo" href="#">Landing-Page</a>
+            <a className="logo" href="#">LandingPage</a>
             </ul>
          
       <ul id="nav"> 

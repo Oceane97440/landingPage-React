@@ -53,3 +53,48 @@ button.btn-register {
   color: white;
   font-size: 15px;
 }
+
+
+#section1{
+  text-align: center;
+  justify-items: center;
+}
+.todo-img{
+  max-width: 45%;
+  margin-right: 3%;
+  height: auto;
+
+}
+
+h1{
+  font-size: 4vw;
+}
+#group-btn-section1{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li.item-btn{padding-right:55px}
+
+button.btn-devie{
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background: #ed733c;
+  color: white;
+  font-size: 15px;
+}
+
+
+button.btn-contact{
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border: 1px solid black;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}

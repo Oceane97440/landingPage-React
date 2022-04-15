@@ -12,13 +12,11 @@ function App() {
     <div className="App">
       <Menus/>
 
-      <section> 
       <Contenu1/>
       <Contenu2/>
       <Contenu3/>
       <Contenu4/>
 
-      </section>
       <footer>footer</footer>
      
      
