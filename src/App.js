@@ -5,6 +5,7 @@ import Contenu2 from './components/Contenu2';
 import Contenu3 from './components/Contenu3';
 import Contenu4 from './components/Contenu4';
 import Video from './components/Video';
+import Footer from './components/Footer';
 
 
 
@@ -19,8 +20,7 @@ function App() {
       <Contenu3/>
       <Contenu4/>
 
-      <footer>footer</footer>
-     
+      <Footer/>     
      
      
     </div>

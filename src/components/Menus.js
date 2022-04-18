@@ -15,10 +15,10 @@ class Menus extends Component {
             </ul>
          
       <ul id="nav"> 
-        <li><a className="list-menu" href="#">About |</a></li>
-        <li><a className="list-menu" href="#">Products |</a></li>
-        <li><a className="list-menu" href="#">Services |</a></li>
-        <li><a className="list-menu" href="#">Contact</a></li>
+        <li><a className="list-menu" href="#">Home |</a></li>
+        <li><a className="list-menu" href="#">Nos services |</a></li>
+        <li><a className="list-menu" href="#">À propos de nous |</a></li>
+        <li><a className="list-menu" href="#">Contactez nous</a></li>
         
 
       </ul>
