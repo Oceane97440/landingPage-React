@@ -22,8 +22,8 @@ class Footer extends Component {
             </ul>
 
             <ul className="reseau">
-                <li className="item-footer-reseau">Linkedin</li>
-                <li className="item-footer-reseau">Instagram</li>
+                <li className="item-footer-reseau"><img className="reseau-img" src={process.env.PUBLIC_URL + "likedin.png"}/></li>
+                <li className="item-footer-reseau"><img className="reseau-img" src={process.env.PUBLIC_URL + "instagram.png"}/></li>
 
             </ul>
 

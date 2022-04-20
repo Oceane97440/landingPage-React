@@ -15,7 +15,7 @@ class Menus extends Component {
             </ul>
          
       <ul id="nav"> 
-        <li><a className="list-menu" href="#">Home |</a></li>
+        <li><a className="list-menu" href="#">Accueil |</a></li>
         <li><a className="list-menu" href="#">Nos services |</a></li>
         <li><a className="list-menu" href="#">À propos de nous |</a></li>
         <li><a className="list-menu" href="#">Contactez nous</a></li>
@@ -23,8 +23,8 @@ class Menus extends Component {
 
       </ul>
       <ul id="btn-connexion">
-      <li><button className="btn-login">Login</button></li>
-     <li><button className="btn-register"> Register</button></li>
+      <li><button className="btn-login">Connexion</button></li>
+     <li><button className="btn-register">Inscription</button></li>
       </ul>
       
     </nav>

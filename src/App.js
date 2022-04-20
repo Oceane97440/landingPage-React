@@ -16,7 +16,7 @@ function App() {
 
       <Contenu1/>
       <Contenu2/>
-      <Video/>
+    
       <Contenu3/>
       <Contenu4/>
 

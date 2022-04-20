@@ -19,7 +19,7 @@ class Contenu2 extends Component {
                 </ul>
                 <ul>
 
-                     <p style={{fontSize:"2vw",fontWeight: 200}}>Vous êtes une entreprise, un artisan, un commerçant, une association, une collectivité et vous souhaitez développer votre visibilité sur le web ? Vous avez besoin d’un site internet pour présenter votre activité ou vos produits ?<br></br><br></br>
+                     <p style={{fontSize:"1.9vw",fontWeight: 200}}>Vous êtes une entreprise, un artisan, un commerçant, une association, une collectivité et vous souhaitez développer votre visibilité sur le web ? Vous avez besoin d’un site internet pour présenter votre activité ou vos produits ?<br></br><br></br>
 Nous sommes à votre écoute pour vous accompagner dans votre projet de création de site internet.   Nous vous proposons un large choix de sites internet adaptés à vos besoins et à votre budget.  Notre agence est spécialisée dans la conception de site internet et le référencement naturel.</p>
                 </ul>
           

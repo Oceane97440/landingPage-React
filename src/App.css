@@ -82,25 +82,37 @@ h2{
 
 li.item-btn{padding-right:55px}
 
-button.btn-devie{
+button.btn-devie:hover {
+  background: black;
+}
+
+button.btn-devie {
   margin-right: 20px;
   padding: 15px;
   border-radius: 30px;
   border: none;
   background: #ed733c;
   color: white;
-  font-size: 15px;
+  font-size: 1vw;
+  box-shadow: 1px 1px 4px 0px black;
 }
 
 
-button.btn-contact{
+button.btn-contact:hover {
+  background: #ed733c;
+  color: white;
+  border: none;
+}
+
+button.btn-contact {
   margin-right: 20px;
   padding: 15px;
   border-radius: 30px;
-  border: 1px solid black;
   background: #ffffff;
   color: rgb(0, 0, 0);
-  font-size: 15px;
+  font-size: 1vw;
+  border: none;
+  box-shadow: 1px 1px 4px 0px black;
 }
 
 #section2{
@@ -253,19 +265,19 @@ img.ver-nbr {
   display: flex;
   background: black;
   color: white;
-  position: relative;
-  align-content: center;
-  justify-content: center;
+  margin: 5%;
+  align-items: center;
+  margin-top: -30px;
+
 
 }
 
-img.woman{
-  width: 26%;
-  position: absolute;
-  right: 0;
-  top: -135px;
+img.woman {
+  max-width: 100%;
   height: auto;
 }
+
+
 ul.business{
   width: 100%;
   margin: 40px;
@@ -303,4 +315,9 @@ li.item-footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+img.reseau-img {
+  width: 50%;
+  height: auto;
 }

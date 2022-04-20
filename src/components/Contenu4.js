@@ -23,7 +23,7 @@ Nous vous aidons à élaborer votre business plan et à définir votre stratégi
             </ul>
             <ul>
 
-            <img className="woman" src={process.env.PUBLIC_URL + "woman.png"}/>
+            <img className="woman" src={process.env.PUBLIC_URL + "annonce.png"}/>
 
             </ul>
       
