@@ -1,10 +1,7 @@
 import './App.css';
 import Menus from './components/Menus';
-import Contenu1 from './components/Contenu1';
-import Contenu2 from './components/Contenu2';
-import Contenu3 from './components/Contenu3';
-import Contenu4 from './components/Contenu4';
-import Video from './components/Video';
+import HomePage from './components/HomePage';
+import Services from './components/Services';
 import Footer from './components/Footer';
 
 
@@ -14,11 +11,9 @@ function App() {
     <div className="App">
       <Menus/>
 
-      <Contenu1/>
-      <Contenu2/>
-    
-      <Contenu3/>
-      <Contenu4/>
+      <HomePage/>
+      <Services/>
+
 
       <Footer/>     
      
