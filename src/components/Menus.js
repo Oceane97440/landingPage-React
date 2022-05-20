@@ -1,38 +1,35 @@
-import React,{Component} from "react";
+import React from "react";
 import { Link, NavLink } from 'react-router-dom';
 
 //import logo from "logo.png"
 
-class Menus extends Component {
-    constructor(props) {
-        super(props);
-    }
-    state = {  }
-    render() { 
-        return ( 
-        <nav id="menu" role="navigation">
-            <ul className="menu-logo">
-                
-            <a className="logo" href="#">LandingPage</a>
-            </ul>
-         
-      <ul id="nav"> 
-        <li><a className="list-menu" href="#">Accueil |</a></li>
-        <li><a className="list-menu" href="#">Nos services |</a></li>
-        <li><a className="list-menu" href="#">À propos de nous |</a></li>
-        <li><a className="list-menu" href="#">Contactez nous</a></li>
-        
 
-      </ul>
-      <ul id="btn-connexion">
-      <li><button className="btn-login">Connexion</button></li>
-     <li><button className="btn-register">Inscription</button></li>
-      </ul>
-      
-    </nav>
-        
-        );
-    }
+
+
+function Menus() {
+
+    return (
+      <nav id="menu" className="nav">
+            <ul className="menu-logo">
+
+                <Link className="logo" to="/">LandingPage</Link>
+            </ul>
+
+            <ul id="nav" className="nav-item">
+                <li><Link className="list-menu" to="/">Accueil |</Link></li>
+                <li><Link className="list-menu" to="/services">Nos services |</Link></li>
+                <li><Link className="list-menu" to="/propos">À propos de nous |</Link></li>
+                <li><Link className="list-menu" to="/contact">Contactez nous</Link></li>
+
+
+            </ul>
+            <ul id="btn-connexion">
+                <li><button className="btn-login">Connexion</button></li>
+                <li><button className="btn-register">Inscription</button></li>
+            </ul>
+
+        </nav>
+    );
 }
- 
+
 export default Menus;

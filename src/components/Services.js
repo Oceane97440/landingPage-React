@@ -1,5 +1,4 @@
 import React,{Component} from "react";
-import Contenu3 from './Contenu3';
 
 
 
@@ -11,7 +10,8 @@ class Services extends Component {
     render() { 
         return ( 
         <div>
-            <Contenu3/>
+
+            <h1>Services</h1>
         </div> );
     }
 }
